@@ -102,7 +102,7 @@ class Arena:
         for hero in self.team_two.heroes:
             if hero.deaths == 0:
                 print(f"survived from {self.team_two.name}: {hero.name}")
-
+#yay im done
 if __name__ == "__main__":
     arena = Arena()
     arena.build_team_one()
